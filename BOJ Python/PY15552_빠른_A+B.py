@@ -8,4 +8,4 @@ for i in range(num):
     result.append(a+b)
 
 for i in range(len(result)):
-    print(result[i])
+    print(result[i]) 
