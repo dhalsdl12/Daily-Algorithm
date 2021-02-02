@@ -1,6 +1,5 @@
 import sys
 n,m = map(int, sys.stdin.readline().split())
-
 tree = list(map(int, sys.stdin.readline().split()))
 
 start, end = 1, max(tree)
