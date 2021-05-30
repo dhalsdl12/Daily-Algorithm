@@ -15,4 +15,4 @@ for i in range(len(st)):
 if len(stack) == 0:
     print("FRULA")
 else:
-    print("".join(stack))
+    print("".join(stack)) 
