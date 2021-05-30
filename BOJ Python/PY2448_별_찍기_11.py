@@ -12,4 +12,4 @@ k = int(math.log(int(num/3), 2))
 for i in range(k):
     a(int(pow(2,i)))
 for i in range(num):
-    print(s[i])
+    print(s[i]) 
