@@ -26,4 +26,4 @@ while True:
     result.append(w(arr[-1][0], arr[-1][1], arr[-1][2]))
 
 for i in range(len(arr)):
-    print("w(%d, %d, %d) = %d" %(arr[i][0], arr[i][1], arr[i][2], result[i]))
+    print("w(%d, %d, %d) = %d" %(arr[i][0], arr[i][1], arr[i][2], result[i])) 
