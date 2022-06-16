@@ -102,4 +102,4 @@ intervals = angles
 res = max_non_overlapping(perimeter, intervals)
 print(res)
 
-fin.close()
+fin.close() 
