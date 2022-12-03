@@ -1,8 +1,11 @@
-n = int(input())
-result = 'NO'
-for i in range(2, n, 2):
-    if (n - i) % 2 == 0:
-        result = 'YES'
-        break
+def gcds(n,m):
+    if m>n :
+        m,n = n,m
+    while m != 0 :
+        n = n%m
+        n,m = m,n
+    return n
 
-print(result)
+
+a, b = map(int, input().split())
+print(gcds(a, b))
