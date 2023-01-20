@@ -2,7 +2,7 @@ n = int(input())
 
 dp = [0 for i in range(n + 1)]
 if n == 1:
-    exit()
+    print(1)
 elif n == 2:
     print(2)
 else:
