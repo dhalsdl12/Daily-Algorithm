@@ -18,7 +18,13 @@ m = int(input())
 arr2 = list(map(int, input().split()))
 
 result = []
+answer = []
 dp = [[0 for _ in range(15001)] for _ in range(n + 1)]
 check(0, 0, 0)
 
-print(dp)
+for a in arr2:
+    if a in result:
+        answer.append('Y')
+    else:
+        answer.append('N')
+print(*answer)
