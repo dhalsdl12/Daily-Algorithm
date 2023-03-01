@@ -30,8 +30,8 @@ t = int(input())
 answer = []
 
 for _ in range(t):
-    visit = [0 for _ in range(20001)]
     n = int(input())
+    visit = [0 for _ in range(n + 1)]
     answer.append(bfs())
 
 for ans in answer:
