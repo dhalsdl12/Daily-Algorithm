@@ -1,8 +1,11 @@
+import sys
+input = sys.stdin.readline
+
 n, m = map(int, input().split())
 dic = {}
 
 for _ in range(n):
-    v = input()
+    v = input().strip()
     if len(v) >= m:
         if v not in dic:
             dic[v] = 1
