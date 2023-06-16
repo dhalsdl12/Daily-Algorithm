@@ -1,6 +1,6 @@
 n = int(input())
 p = int(input())
-sale = []
+sale = [0]
 
 if n >= 5:
     sale.append(500)
