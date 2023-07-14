@@ -6,6 +6,9 @@ for i in range(n):
     num = max(arr[i : min(n, i + s + 1)])
     idx = arr.index(num)
 
+    if idx == i:
+        continue
+    
     arr.pop(idx)
     arr.insert(i, num)
     
