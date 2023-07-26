@@ -1,10 +1,10 @@
 h, w = map(int, input().split())
 arr = [[0 for _ in range(h)] for _ in range(w)]
-height = list(map(int, input().split()))
+block = list(map(int, input().split()))
 answer = 0
 
 for i in range(w):
-    n = height[i]
+    n = block[i]
     for j in range(n):
         arr[i][j] = 1
 
