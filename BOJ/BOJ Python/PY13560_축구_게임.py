@@ -1,7 +1,5 @@
 n = int(input())
 arr = sorted(map(int, input().split()))
-print(arr)
-print()
 if sum(arr) != n * (n - 1) // 2:
     print(-1)
     exit()
@@ -17,8 +15,6 @@ for i in range(n):
             exit()
         
     arr[i] = 0
-    print(arr)
     arr.sort()
-    print(arr)
-    print()
+    
 print(1)
