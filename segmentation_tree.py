@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # Q : len(arr) * 4로 tree 사이즈를 정해놓는 건가?
